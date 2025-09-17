@@ -21,9 +21,9 @@ import Fairydust from '../../assets/fairydust.png'
 
 function Homepage(){
     return(
-        <>
-        <header className="flex flex-row bg-yellow-200 justify-center items-center xl:w-7xl xl:bg-red-200">
-            <ul className="flex items-center justify-between list-none">
+        <div className="flex flex-col items-center">
+        <header className="flex flex-row bg-yellow-200 w-full justify-center items-center xl:w-full xl:bg-red-200">
+            <ul className="flex items-center justify-evenly list-none w-7xl">
                 <li>Home</li>
                 <li><a href="">TailwindCss</a></li>
                 <li><a href="">Pixel Art</a></li>
@@ -73,7 +73,7 @@ function Homepage(){
             <h1>Fairydust</h1>
             <a href="https://lospec.com/palette-list/fairydust-8" target="_blank"><img src={Fairydust} alt="" /></a>
         </div>
-        </>
+        </div>
     )
 }
 
