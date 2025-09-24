@@ -19,9 +19,9 @@ import Spacehaze from '../../assets/spacehaze.png'
 import Punolite from '../../assets/punolite.png'
 import Fairydust from '../../assets/fairydust.png'
 
-function Homepage(){
+function Paletas(){
     return(
-        <div className="flex flex-col items-center">
+        <div className="flex flex-col items-center bg-white">
         <header className="flex flex-row bg-yellow-200 w-full justify-center items-center xl:w-full xl:bg-red-200">
             <ul className="flex items-center justify-evenly list-none w-7xl">
                 <li>Home</li>
@@ -77,4 +77,4 @@ function Homepage(){
     )
 }
 
-export default Homepage;
+export default Paletas;
